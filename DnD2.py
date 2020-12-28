@@ -1,3 +1,7 @@
+"""
+Attempt to solve the FiveThirtyEight "Riddler." Utilizing Random module. Returns number for each type of roll.
+"""
+
 import random
 def rollDie():
     return random.randint(1,20)
